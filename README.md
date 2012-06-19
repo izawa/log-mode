@@ -32,7 +32,7 @@ Simple Text indentation support minor mode.
            "          * "       ; level 6
            ])
 
-### if you using filladapt.el, you can use log-mode-hook to regist indent-prefix into filladapt-token-table as "bullet".
+If you using filladapt.el, you can use log-mode-hook to regist indent-prefix into filladapt-token-table as "bullet".
 
     (add-hook 'log-mode-hook
     	      (lambda ()
