@@ -48,6 +48,7 @@ type
    M-x log-mode
 
 ###key bindings:
-Tab: insert indent prefix, or increment indent level (like a PowerPoint).
-Shift-Tab: decrement indent level.
-C-c C-a: insert log-header. 
+* Tab: insert indent prefix, or increment indent level (like a PowerPoint).
+* Shift-Tab: decrement indent level.
+* C-c C-a: insert log-header. 
+
