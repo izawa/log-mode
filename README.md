@@ -18,19 +18,19 @@ Simple Text indentation support minor mode.
 ### Additional setting
  If you want to bind Hot-keys, add setting lines like below.
 
- ; Shift-Tab: back indent level
- (define-key log-mode-map [S-tab] 'log-mode-tab-back)
- ; Ctrl-Return: raw CR
- (define-key log-mode-map [C-return] 'log-mode-raw-return)
- ;; set indent prefix as you like.
- (setq log-mode-indent-prefix-list  [
-       "* "                 ; level 1
-       "  + "               ; level 2
-       "    # "             ; level 3
-       "      - "           ; level 4
-       "        o "         ; level 5
-       "          * "       ; level 6
-       ])
+    ; Shift-Tab: back indent level
+     (define-key log-mode-map [S-tab] 'log-mode-tab-back)
+     ; Ctrl-Return: raw CR
+     (define-key log-mode-map [C-return] 'log-mode-raw-return)
+     ;; set indent prefix as you like.
+     (setq log-mode-indent-prefix-list  [
+           "* "                 ; level 1
+           "  + "               ; level 2
+           "    # "             ; level 3
+           "      - "           ; level 4
+           "        o "         ; level 5
+           "          * "       ; level 6
+           ])
 
 ### if you using filladapt.el, you can use log-mode-hook to regist indent-prefix into filladapt-token-table as "bullet".
 
