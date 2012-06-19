@@ -43,3 +43,11 @@ Simple Text indentation support minor mode.
 	      (pushnew (cons (aref log-mode-indent-prefix-list i) (cons 'bullet nil)) filladapt-token-table)
 	      (setq i (1+ i))))))
 
+## How to use:
+type
+   M-x log-mode
+
+###key bindings:
+Tab: insert indent prefix, or increment indent level (like a PowerPoint).
+Shift-Tab: decrement indent level.
+C-c C-a: insert log-header. 
